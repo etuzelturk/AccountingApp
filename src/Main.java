@@ -14,6 +14,6 @@ public class Main {
         int wage = in.nextInt();
 
         Employee employee = new Employee(name, numOfDays, wage);
-        System.out.println("Employee Salary: "+employee.calculateSalary() + " (Wage: "+(employee.calculateSalary()-employee.calculatePrim()) +", Bonus: "+employee.calculatePrim()+"E)");
+        System.out.println("Employee Salary: "+employee.calculateSalary() + " (Wage: "+(employee.calculateSalary()-employee.calculatePrim()) +", Bonus: "+employee.calculatePrim()+")");
     }
 }
